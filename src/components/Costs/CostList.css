@@ -1,0 +1,10 @@
+.cost-list {
+    list-style: none;
+    padding: 0;
+
+}
+
+.cost-list__text {
+    text-align: center;
+    font-size: 36px;
+}
