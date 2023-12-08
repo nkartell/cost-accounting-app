@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nkartell/cost-accounting-app/static/css/main.62d0cfdf.css",
+    "main.js": "/nkartell/cost-accounting-app/static/js/main.0069df5c.js",
+    "index.html": "/nkartell/cost-accounting-app/index.html",
+    "main.62d0cfdf.css.map": "/nkartell/cost-accounting-app/static/css/main.62d0cfdf.css.map",
+    "main.0069df5c.js.map": "/nkartell/cost-accounting-app/static/js/main.0069df5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d0cfdf.css",
+    "static/js/main.0069df5c.js"
+  ]
+}
