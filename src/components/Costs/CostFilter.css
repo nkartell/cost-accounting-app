@@ -1,6 +1,6 @@
 .costs-filter {
-    color: white;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .costs-filter__control {
@@ -19,6 +19,42 @@
 .costs-filter select {
     font-size: 20px;
     border-radius: 7px;
-    padding:10px;
+    padding: 10px;
     width: 200px;
+}
+
+
+.select-css {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../../../public/arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+
+
+@media (max-width: 580px) {
+    .costs-filter  label {
+        font-size: 25px;
+    }
+
+    .costs-filter select {
+        width: 90px;
+    }
+
+    .costs-filter {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+}
+
+
+@media (max-width: 420px) {
+    .costs-filter  label {
+        font-size: 18px;
+    }
 }

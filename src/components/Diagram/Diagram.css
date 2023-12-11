@@ -1,10 +1,19 @@
 .diagram {
-    padding: 30px;
-    border: 3px solid rgba(171, 91, 5, 0.864);
+    height: 150px;
+    padding: 20px;
+    border: 3px solid #1e1f1d;
     border-radius: 12px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
-    height: 150px;
+    justify-content: space-between;   
+    flex-wrap: wrap;   
     margin-bottom: 50px;
 }
+
+
+@media (min-width: 320px) and (max-width: 600px)  {
+    .diagram {
+        padding: 10px;
+        margin-bottom: 10px;       
+    }
+} 

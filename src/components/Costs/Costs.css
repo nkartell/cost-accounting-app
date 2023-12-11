@@ -2,7 +2,12 @@
     padding: 30px;
     margin-left: 22px;
     margin-right: 22px;
-    background-color: #ecd190;
-    max-width: 95%;
-    
+    background-color: #e9e2d0;
+    max-width: 95%;   
 }
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .costs {
+      padding: 10px;
+    }
+  }

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(205, 143, 71, 0.714);
+    background-color: #e8cc8b;
     padding: 15px;    
     margin-bottom: 20px;
     font-size: 24px;
@@ -25,7 +25,6 @@
 .cost-item h2 {
     
     /* flex:1; */
-    color: beige;
     align-self: center;
     font-size: 26px;
    
@@ -33,22 +32,34 @@
 
 .cost-item__price {    
     font-weight: bold;
-    background-color: rgba(131, 83, 25, 0.874);
+    background-color: #1e1f1d;
     border: 1px solid white;   
     border-radius: 12px;
     padding: 10px;
     color: white;
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 
-@media (min-width:320px) and (max-width: 768px)  {
-    .cost-item__description {
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        /* flex: 1; */
-        gap:60px;
+
+
+@media (max-width: 580px) {
+    .cost-item h2 {
+        font-size: 18px;
     }
 
+    .cost-item {
+        font-size: 18px;
+    }
 
+    .cost-date__day {
+        font-size: 20px;
+    }
+
+    .cost-item__price {
+        font-size: 18px;
+    }
+
+    
 }
+
+

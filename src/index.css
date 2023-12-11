@@ -14,8 +14,5 @@ code {
 }
 
 button {
-  margin-right: 20px;
-}
-button:hover {
-  background-color: #ad6b6b;
+  margin-right: 10px;
 }

@@ -1,5 +1,5 @@
 .new-cost {
-  background-color: #aac4da;
+  background-color: #1e1f1d;
   padding: 20px;
   margin-left: 22px;
   margin-right: 22px;
@@ -11,8 +11,7 @@
 .new-cost button {
   cursor: pointer;
   padding: 20px;
-  border: 1px solid #cca030;
-  background-color: #ecd190;
+  background-color: #e8cc8b;
   border-radius: 8px;
   font-size: 22px;
   font-weight: bold;
@@ -20,5 +19,19 @@
 
 .new-cost button:hover,
 .new-cost button:active {
-  background-color: #cca030;
+  background-color: #e8cc8b;
+}
+
+@media (max-width: 580px) {
+  .new-cost {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .new-cost button {
+    font-size: 18px;
+    padding: 10px;
+  }
 }

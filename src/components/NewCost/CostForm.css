@@ -9,6 +9,7 @@
     font-weight: bold;
     margin-bottom: 20px;
     width: 50%;
+    color: white;
 }
 
 .new-cost__control {
@@ -24,4 +25,14 @@
 
 .new-cost__actions {
     text-align: left;
+}
+
+@media (max-width: 580px) {
+    .new-cost__control input {
+        padding: 5px;
+    }
+
+    .new-cost__controls {
+        gap: 10px;
+    }
 }
